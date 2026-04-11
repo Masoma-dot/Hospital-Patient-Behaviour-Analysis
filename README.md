@@ -31,25 +31,25 @@ The project covers the full data analyst workflow — from raw data cleaning thr
 hospital-patient-analysis/
 │
 ├── data/
-│   ├── KaggleV2-May-2016.csv        ← raw download from Kaggle
-│   └── hospital_final.csv           ← cleaned dataset (output of Python EDA)
+│   ├── hospital_clean_shortened.csv
+│   └── raw
 │
-├── excel/
-│   └── hospital_clean.xlsx          ← cleaned workbook with pivot summaries
-│
-├── python/
-│   ├── hospital_eda.py              ← EDA script (charts + data cleaning)
-│   └── generate_report.py          ← automated PDF report generator
-│
-├── sql/
-│   ├── query1_gender_noshow.sql
-│   ├── query2_age_group.sql
-│   ├── query3_top_neighbourhoods.sql
-│   ├── query4_sms_impact.sql
-│   └── query5_monthly_trend.sql
+├── notebook/
+│   ├── eda.ipynb
+│   └── hospital_eda.ipynb
 │
 ├── report/
-│   └── Hospital_Patient_Analysis_Report.pdf   ← final automated report
+│   └── Hospital_Patient_Analysis_Report.pdf
+│
+├── sql/
+│   └── queries.sql
+│
+├── visuals/
+│   ├── plot1_attendance.png
+│   ├── plot2_age_group.png
+│   ├── plot3_day_of_week.png
+│   ├── plot4_sms.png
+│   └── plot5_wait_days.png
 │
 └── README.md
 ```
